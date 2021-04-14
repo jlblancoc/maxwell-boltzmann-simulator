@@ -378,7 +378,7 @@ void BoltzmannDemo() {
         break;
 #endif
 
-      case 't':
+      case 'T':
         if (is_tracking) {
           is_tracking = false;
         } else {
@@ -387,10 +387,10 @@ void BoltzmannDemo() {
         }
         break;
 
-      case 'z':
+      case 'Z':
         SPEED_UP_FACTOR *= 0.5;
         break;
-      case 'x':
+      case 'X':
         SPEED_UP_FACTOR *= 2;
         break;
 
